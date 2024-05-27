@@ -174,4 +174,16 @@
     font-family: 'Nunito-Extrabold', sans-serif;
     margin-bottom: 8px;
 }
+
+.piramal-blog-content .default-content-wrapper img{
+    width: 100%;
+    border-radius: 16px;
+    height: 230px;
+}
+
+@media screen and (max-width: 768px) {
+    .piramal-blog-content .default-content-wrapper img{
+        height: 70px;
+    }
+}
 /* piraml blog-content end */
