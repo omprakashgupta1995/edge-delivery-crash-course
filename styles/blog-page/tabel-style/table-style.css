@@ -32,3 +32,9 @@
 .piramal-blog-color-table .table table td{
     padding: 6.75pt 36.0pt 6.75pt 36.0pt
 }
+
+@media screen and (max-width: 768px) {
+.piramal-blog-color-table .table-wrapper{
+    overflow-x: auto;
+}
+}
