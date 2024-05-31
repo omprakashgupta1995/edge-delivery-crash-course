@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Footer Render Function
     function footer_render(footer_data) {
         var flag = 0;
+        footer_data = footer_data.replace(/\/etc.clientlibs\/piramalfinance/g, "https://publish-p133703-e1305981.adobeaemcloud.com/etc.clientlibs/piramalfinance");
+        footer_data = footer_data.replace(/\/content\/dam\/piramalfinance/g, "https://publish-p133703-e1305981.adobeaemcloud.com/content/dam/piramalfinance");
         document.addEventListener('scroll', function () {
             if (flag == 0) {
                 flag = 1;
