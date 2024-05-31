@@ -262,10 +262,14 @@
 
 .piramal-blog-content .piramal-blog-bg-txt h4,
 .piramal-blog-content .piramal-blog-bg-txt h2{
-    padding: .1875em;
     font-size: 1.75rem;
     margin-bottom: .5rem;
     margin-top: 0.625rem;
+}
+
+.piramal-blog-content .piramal-blog-bg-txt h4 strong,
+.piramal-blog-content .piramal-blog-bg-txt h2 strong{
+    padding: .1875em;
     background-color: #fff3cd;
 }
 
