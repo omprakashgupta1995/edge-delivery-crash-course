@@ -161,7 +161,8 @@
 }
 
 .piramal-blog-content .default-content-wrapper p,
-.piramal-blog-content .piramal-blog-bg-txt p{
+.piramal-blog-content .piramal-blog-bg-txt p,
+.piramal-blog-content .piramal-anchor-txt p{
     font-size: 1.1rem;
     line-height: 1.5;
     margin-top: 1rem;
@@ -170,7 +171,8 @@
     font-family: 'Nunito-Regular', sans-serif;
 }
 
-.piramal-blog-content .default-content-wrapper h2{
+.piramal-blog-content .default-content-wrapper h2,
+.piramal-blog-content .piramal-anchor-txt h2{
     font-size: 20px;
     font-family: 'Nunito-Extrabold', sans-serif;
     margin-bottom: 8px;
@@ -200,12 +202,15 @@
 }
 
 .link-orange .default-content-wrapper p a,
-.link-orange .default-content-wrapper h4 a,
 .link-orange .default-content-wrapper ol li a ,
 .link-orange .default-content-wrapper ul li a,
 .link-orange .piramal-blog-bg-txt ol li a,
-.link-orange .piramal-blog-bg-txt p a{
+.link-orange .piramal-blog-bg-txt p a,
+.piramal-blog-content .piramal-anchor-txt h2 a,
+.piramal-blog-content .piramal-anchor-txt h4 a,
+.piramal-blog-content .piramal-anchor-txt p strong a{
     color: #f26841;
+    line-height: normal;
     text-decoration: underline;
 }
 
@@ -221,6 +226,7 @@
     color: #0e101a;
     column-gap: 65px;
     font-size: 1.75rem;
+    margin-bottom: 8px;
 }
 
 .piramal-blog-content .embed-wrapper .embed{
@@ -273,9 +279,9 @@
     background-color: #fff3cd;
 }
 
-.piramal-blog-content .piramal-blog-bg-txt ol li,
-.piramal-blog-content .piramal-blog-bg-txt ul li{
-    padding: .1875em;
+.piramal-blog-content .piramal-blog-bg-txt ol li em,
+.piramal-blog-content .piramal-blog-bg-txt ul li em{
+    font-style: normal  ;
     background-color: #fff3cd;
 }
 
@@ -349,6 +355,43 @@
     border: 2px solid #000;
 }
 /* Normal Table Border */
+
+
+/* Heading link Tag & Bold Anchor Tag*/
+.piramal-blog-content .piramal-anchor-txt h4{
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+}
+/* Heading link Tag */
+
+/* link Tag Underline */
+.piramal-blog-content .piramal-underline-txt h2{
+    font-family: 'Times New Roman', serif;
+}
+
+.piramal-blog-content .piramal-underline-txt h2 a{
+    position: relative;
+}
+
+.piramal-blog-content .piramal-underline-txt h2 a::before{
+    content: '';
+    width: 53px;
+    height: 2px;
+    bottom: -1px;
+    background: #f26841;
+    position: absolute;
+}
+
+.piramal-blog-content .piramal-underline-txt h2 a::after{
+    right: 0px;
+    content: '';
+    width: 100px;
+    height: 2px;
+    bottom: -1px;
+    background: #f26841;
+    position: absolute;
+}
+/* link Tag Underline */
 
 @media screen and (max-width: 768px) {
     .piramal-blog-content .default-content-wrapper img{
