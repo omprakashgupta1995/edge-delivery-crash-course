@@ -15,7 +15,7 @@ export default async function decorate(block) {
     // block.append(footer);
     fetchAPI("GET", "https://main--edge-delivery-crash-course--omprakashgupta1995.hlx.page/more-articles-for-you.json?nocache=1717489105241")
         .then(function (data) {
-            debugger;
+           
             if (typeof data === "string") {
                 data = JSON.parse(data);
             }
