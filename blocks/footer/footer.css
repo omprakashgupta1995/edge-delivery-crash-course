@@ -1,4 +1,4 @@
-footer {
+/* footer {
   padding: 2rem;
   background-color: var(--light-color);
   font-size: var(--body-font-size-s);
@@ -11,4 +11,286 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+} */
+
+/* Footer Logo */
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div{
+  display: flex;
+  margin-left: -12px;
+  margin-right: -12px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ffffff33;
 }
+
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:first-child,
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:last-child{
+  width: 75%;
+  flex: 0 0 auto;
+  padding: 0px 12px;
+}
+
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:last-child{
+  width: 25%;
+}
+
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:first-child p a picture img{
+   width: 150px;
+   height: 68px;
+}
+
+.piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:last-child p a{
+    color: #fff;
+    font-family: 'Nunito-Extrabold', sans-serif;
+}
+/* Footer Logo */
+
+/* Footer Background Color */
+footer.footer-wrapper{
+  padding: 0px;
+  background: #365069 !important;
+}
+/* Footer Background Color */
+
+/* Footer max Width Container */
+footer.footer-wrapper .footer{
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 3rem 0.75rem;
+}
+/* Footer max Width Container */
+
+/* Nav List */
+.piramal-footer-nav-container .piramal-footer-nav-wrapper .piramal-footer-nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.piramal-footer-nav-wrapper .piramal-footer-nav > div{
+  width: 25% ;
+  flex: 0 0 auto;
+  padding: 0px 12px;
+  margin-bottom: 1.5rem;
+}
+
+.piramal-footer-nav div > div ul{
+  margin-bottom: 1.5rem;
+}
+
+.piramal-footer-nav div > div ul li:first-child,
+.piramal-footer-nav div > div ul li a{
+ width: 100%;
+ color: #fff;
+ padding-bottom: 8px;
+ text-decoration: none;
+ display: inline-block;
+ margin-bottom: 0.5rem;
+ font-family: 'Nunito-Extrabold', sans-serif;
+}
+
+.piramal-footer-nav div > div ul li{
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.piramal-footer-nav div > div ul li a{
+  color: #fffc;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: normal;
+  font-family: 'Nunito-Regular', sans-serif;
+}
+/* Nav List */
+
+/* Footer App Link */
+
+.piramal-footer-app-link > div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-bottom: 3rem;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.piramal-footer-app-link > div > div{
+  width: 50%;
+  flex: 0 0 auto;
+  padding: 0px 12px;
+}
+
+.piramal-footer-app-link > div > div p{
+  display: inline;
+  vertical-align: middle;
+}
+
+.piramal-footer-app-link > div > div:last-child{
+  text-align: right !important;
+}
+
+.piramal-footer-app-link > div > div:first-child p:first-child,
+.piramal-footer-app-link > div > div:last-child p:first-child{
+  color: #fff;
+  margin-right: 8px;
+  font-family: 'Nunito-Extrabold', sans-serif;
+}
+
+.piramal-footer-app-link > div:first-child p:last-child a picture img{
+  width: 128px;
+  height: 38px;
+  border-radius: 6px;
+}
+
+.piramal-footer-app-link > div:first-child p:last-child a:last-child picture img{
+  width: 113px;
+}
+
+.piramal-footer-app-link > div > div:last-child p:last-child a{
+  color: #f26841;
+}
+/* Footer App Link */
+
+/* Footer Media Icon */
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div{
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:first-child{
+  padding: 0px 12px;
+  text-align: center;
+  margin-bottom: 1rem;
+} 
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:first-child p{
+  opacity: .5;
+  color: #fff;
+  margin-bottom: .5rem;
+  font-family: 'Nunito-Regular', sans-serif; 
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child{
+  padding: 0px 12px;
+ text-align: center;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child p{
+  display: inline;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child p a{
+  height: auto;
+  width: 2.5rem;
+  margin: 0 3rem;
+  display: inline-block;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child p a picture img{
+  width: 100%;
+  height: auto;
+}
+
+.piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child p:nth-child(5) a picture img{
+  border-radius: 20px;
+}
+/* Footer Media Icon */
+
+/* Footer Piramal Branch Info */
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div{
+  width: 100%;
+  flex: 0 0 auto;
+  padding: 0px 12px;
+  text-align: center;
+}
+
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:first-child{
+  margin-bottom: 1.5rem;
+}
+
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:first-child p,
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:last-child p{
+  opacity: .5;
+  color: #fff;
+  margin-bottom: .25rem;
+  font-family: 'Nunito-Regular', sans-serif; 
+}
+
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:first-child p:last-child,
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:last-child p:last-child{
+  margin: 0px;
+}
+
+.piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:last-child p{
+  font-size: 14px;
+}
+/* Footer Piramal Branch Info */
+
+/* Media Query Footer */
+
+@media screen and (max-width: 768px) {
+
+  /* Footer Logo */
+  .piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:first-child p a picture img{
+    width: 90px;
+    height: auto;
+  }
+
+  .piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:first-child,
+  .piramal-footer-logo-container .piramal-footer-logo-wrapper .piramal-footer-logo > div > div:last-child{
+    width: 50%;
+  }
+  /* Footer Logo */
+  
+  /* Nav List */
+  .piramal-footer-nav-wrapper .piramal-footer-nav > div{
+    width: 50% ;
+  }
+  /* Nav List */
+
+  /* Footer App Link */
+  .piramal-footer-app-link > div > div{
+    width: 100%;
+  }
+
+  .piramal-footer-app-link > div > div:first-child{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .piramal-footer-app-link > div > div:first-child p:first-child{
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .piramal-footer-app-link > div > div:last-child{
+    text-align: center !important;
+  }
+  /* Footer App Link */
+  
+  /* Footer Media Icon */
+  .piramal-footer-media-icon-wrapper .piramal-footer-media-icon > div > div:last-child p a{
+    width: 1.5rem;
+    margin: 0 1rem;
+  }
+  /* Footer Media Icon */
+}
+/* Media Query Footer */
