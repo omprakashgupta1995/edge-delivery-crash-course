@@ -236,6 +236,7 @@
 }
 
 .piramal-blog-content .embed-wrapper .embed div{
+    width: 105% !important;
     height: 100% !important;
     padding-bottom: 0px !important;
 }
@@ -243,10 +244,6 @@
 .piramal-blog-content .embed-wrapper .embed iframe{
     height: 700px !important; 
     position: unset !important;
-}
-
-.piramal-blog-content .embed-wrapper .embed .ytp-cued-thumbnail-overlay{
-    width: 105%;
 }
 
 .piramal-blog-content .video-wrapper{
