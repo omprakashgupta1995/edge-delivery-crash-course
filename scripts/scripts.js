@@ -136,6 +136,21 @@ async function loadPage() {
 const placeholders = await fetchPlaceholders('en');
 // retrieve the value for key 'foo'
 const { foo } = placeholders;
-alert(placeholders);
+
+
+function replaceText(searchText, replacementText) {
+    const body = document.querySelectorAll("body")[0]; 
+
+  const elements = body.querySelectorAll("*"); 
+  for (const element of elements) {
+      debugger
+    if (element.innerHTML.includes(searchText)) { 
+        debugger
+      element.innerHTML = element.innerHTML.replace(searchText, replacementText);
+    }
+  }
+}
+// Example usage
+replaceText("@interestRate", placeholders.en.interestRate);
 
 loadPage();
