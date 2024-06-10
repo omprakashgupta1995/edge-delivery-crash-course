@@ -302,6 +302,7 @@ header nav .nav-tools {
   width: 100%;
   margin: 0 auto;
   gap: 0;
+  padding: 0 12px;
 }
 
 .header-wrapper .nav-wrapper nav .nav-brand .default-content-wrapper a {
@@ -427,6 +428,7 @@ header nav .nav-tools {
   flex-wrap: wrap;
   padding-left: 8px;
   padding-right: 8px;
+  height: max-content;
 }
 
 
@@ -439,6 +441,7 @@ header nav .nav-tools {
   font-family: 'Nunito-Bold', sans-serif;
   margin-left: 10px;
   line-height: normal;
+  height: max-content;
 }
 
 .header-wrapper .nav-wrapper nav .nav-sections .default-content-wrapper>ul>li>ul>li>ul {

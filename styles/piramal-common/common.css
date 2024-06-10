@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth
+}
+
 abbr,
 address,
 article,
@@ -114,7 +118,7 @@ textarea:focus {
 
 .piramal-container {
     margin: 0 auto;
-    max-width: 930pt;
+    max-width: 1296px;
 }
 
 main{

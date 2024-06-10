@@ -103,8 +103,8 @@ footer.footer-wrapper .footer{
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-weight: normal;
-  font-family: 'Nunito-Regular', sans-serif;
-}
+  font-family: 'Nunito-Light', sans-serif;
+} 
 /* Nav List */
 
 /* Footer App Link */
@@ -223,6 +223,7 @@ footer.footer-wrapper .footer{
 }
 
 .piramal-footer-branch-details-wrapper .piramal-footer-branch-details > div > div:first-child{
+  font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
