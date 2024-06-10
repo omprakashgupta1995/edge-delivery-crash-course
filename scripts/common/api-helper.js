@@ -1,5 +1,5 @@
 
-function fetchAPI(method, url, data) {
+export default function fetchAPI(method, url, data) {
     return new Promise(function (resolve, reject) {
         var xhr = new XMLHttpRequest();
         xhr.open(method, url);
