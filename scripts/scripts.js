@@ -11,6 +11,7 @@ import {
   waitForLCP,
   loadBlocks,
   loadCSS,
+fetchPlaceholders
 } from './aem.js';
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
@@ -131,5 +132,10 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 }
+// fetch placeholders from the 'en' folder
+const placeholders = await fetchPlaceholders('en');
+// retrieve the value for key 'foo'
+const { foo } = placeholders;
+alert(placeholders);
 
 loadPage();
