@@ -117,6 +117,8 @@
     height: 100%;
     border-top-right-radius: 10px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .piramal-banner-wrapper .piramal-banner>div div:nth-child(2):after {
@@ -169,6 +171,14 @@
     margin-bottom: 1rem;
     color: #212529;
     font-family: 'Nunito-Regular', sans-serif;
+}
+
+.piramal-blog-content .default-content-wrapper p sup{
+    top: -.5em;
+    line-height: 0;
+    color: #212529;
+    font-size: .75em;
+    position: relative;
 }
 
 .piramal-blog-content .default-content-wrapper h2,
@@ -246,6 +256,16 @@
     position: unset !important;
 }
 
+/* Video */
+
+.piramal-blog-video.piramal-blog-content{
+    padding: 0px;
+}
+
+.piramal-blog-video.piramal-blog-content .default-content-wrapper{
+    padding: 1.5rem;
+}
+
 .piramal-blog-content .video-wrapper{
     display: flex;
     justify-content: center;
@@ -254,7 +274,10 @@
 .piramal-blog-content .video-wrapper .video{
     max-width: 53.35%;
     height: 357.3px;
-    margin: 24px 0px;
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 1.5rem;
+    padding: 0px 12px;
 }
 
 .piramal-blog-content .video-wrapper .video video{
@@ -394,11 +417,11 @@
     font-size: 28px;
     color: #212529;
     line-height: normal;
-    font-family: "Nunito-Semibold", sans-serif;
+    font-family: "Nunito-Extrabold", sans-serif;
 }
 
 .more-articles-for-header > div:first-child h4 strong{
-    font-weight: unset;
+    font-weight: bolder;
 }
 
 .more-articles-for-header > div:last-child p a{
@@ -418,7 +441,9 @@
 .more-articles-card{
     border-top: 0;
     margin: 0 auto;
-    max-width: 930pt;
+    max-width: 1296px;
+    padding-bottom: 3rem;
+    margin-bottom: 1.5rem;
     border-radius: 0 0 10px 10px;
 }
 
@@ -471,6 +496,7 @@
     font-size: 1.3rem;
     margin-bottom: 8px;
     line-height: normal;
+    font-weight: 700;
 }
 
 .more-articles-card .more-articles-for-you-wrapper .more-articles-for-you > div:last-child > div:last-child p{
