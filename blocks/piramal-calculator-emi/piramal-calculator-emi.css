@@ -1,0 +1,72 @@
+/* Piramal Calculator title & Img */
+.piramal-emi-calculator-title .default-content-wrapper{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0px 12px;
+}
+
+.piramal-emi-calculator-title .default-content-wrapper h2{
+    font-size: 2rem;
+    color: #333333;
+    line-height: 1.75rem;
+    padding-bottom: .5rem;
+    font-family: Nunito-Extrabold , sans-serif;
+}
+
+.piramal-emi-calculator-title .default-content-wrapper p{
+    color: #666666;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-bottom: 2.625rem;
+    font-family: Nunito-Regular , sans-serif;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0px 12px;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi{
+    margin-bottom: 4.5rem;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div{
+    gap: 1.5rem;
+    display: flex;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div{
+    cursor: pointer;
+    position: relative;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div h3{
+    top: 25px;
+    left: 25px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    position: absolute;
+    font-family: "Nunito-Bold" , sans-serif;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div p:last-child{
+    left: 25px;
+    bottom: 30px;
+    color: #ffffff;
+    font-size: .875rem;
+    position: absolute;
+    border-radius: 8px;
+    line-height: 1.25rem;
+    padding: 15.5px 17.5px;
+    background-color: #f26841;
+    font-family: "Nunito-Bold" , sans-serif;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div picture img{
+    width: 607px;
+    height: 150px;
+    border-radius: 1.5rem;
+}
+/* Piramal Calculator title & Img */

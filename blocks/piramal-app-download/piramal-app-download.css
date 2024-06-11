@@ -1,0 +1,64 @@
+/* Piramal App Download */
+.piramal-app-download-container .piramal-app-download-wrapper{
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1320px;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download{
+    position: relative;
+    margin-bottom: 4.5rem;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:first-child > div:first-child picture img{
+    width: 96%;
+    height: 272px;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child{
+    top: 0px;
+    position: absolute;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:first-child{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3.125rem;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div h2{
+    color: #ffffff;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: .5rem;
+    font-family: "Nunito-Bold" , sans-serif;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Nunito-Regular" , sans-serif;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child{
+    gap: 1.25rem;
+    display: flex;
+    padding-left: 4rem;
+    padding-top: 2.2rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child p:first-child a picture img{
+    width: 175px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child p:last-child a picture img{
+    width: 155px;
+    border-radius: 10px;
+    height: fit-content;
+}
+/* Piramal App Download */
