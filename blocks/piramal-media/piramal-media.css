@@ -1,0 +1,45 @@
+/* Piramal Media Img & Title */
+.piramal-media-title .default-content-wrapper h2{
+    color: #666;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.75rem;
+    font-family: "Nunito-Regular";
+}
+
+.piramal-media-container .piramal-media-wrapper{
+    margin: 0 auto;
+    padding: 0px 12px;
+    max-width: 1320px;
+}
+
+.piramal-media-container .piramal-media-wrapper .piramal-media{
+    gap: 10.2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.5rem;
+    justify-content: center;
+}
+
+
+.piramal-media-container .piramal-media-wrapper .piramal-media > div{
+    text-align: center;
+}
+
+.piramal-media-container .piramal-media-wrapper .piramal-media > div:first-child > div picture img{
+    width: 207px;
+    height: fit-content;
+}
+
+.piramal-media-container .piramal-media-wrapper .piramal-media > div:nth-child(2) > div picture img{
+    width: 215px;
+    height: fit-content;
+}
+
+.piramal-media-container .piramal-media-wrapper .piramal-media > div:nth-child(3) > div picture img{
+    width: 202px;
+    height: fit-content;
+}
+/* Piramal Media Img & Title */

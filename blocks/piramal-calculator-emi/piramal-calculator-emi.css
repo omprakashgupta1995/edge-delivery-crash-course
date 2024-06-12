@@ -1,10 +1,4 @@
 /* Piramal Calculator title & Img */
-.piramal-emi-calculator-title .default-content-wrapper{
-    margin: 0 auto;
-    max-width: 1320px;
-    padding: 0px 12px;
-}
-
 .piramal-emi-calculator-title .default-content-wrapper h2{
     font-size: 2rem;
     color: #333333;
@@ -37,8 +31,12 @@
 }
 
 .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div{
+    width: 100%;
+    margin: 0 auto;
     cursor: pointer;
+    overflow: hidden;
     position: relative;
+    border-radius: 1.5rem;
 }
 
 .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div h3{
@@ -65,8 +63,52 @@
 }
 
 .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div picture img{
-    width: 607px;
     height: 150px;
+    max-width: 100%;
     border-radius: 1.5rem;
+    transition: all 0.1s linear;
+}
+
+.piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div picture img:hover{
+    transform: scale(1.2);
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .piramal-emi-calculator-title .default-content-wrapper h2{
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+        padding-bottom: .25rem;
+    }
+
+    .piramal-emi-calculator-title .default-content-wrapper p {
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .piramal-calculator-emi-container .piramal-calculator-emi-wrapper{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi{
+        margin-bottom: 2.5rem;
+    }
+
+    .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div{
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div h3 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div p:last-child{
+        padding: 9px 11.21px;
+    }
 }
 /* Piramal Calculator title & Img */

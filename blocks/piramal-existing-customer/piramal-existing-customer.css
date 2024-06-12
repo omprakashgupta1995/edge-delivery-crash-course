@@ -1,0 +1,44 @@
+/* Piramal Existing Customer */
+.piramal-existing-customer-wrap{
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.piramal-existing-customer-title .default-content-wrapper h2{
+    font-size: 2rem;
+    font-family: "Nunito-Extrabold" , sans-serif;
+}
+
+.piramal-existing-customer-title .default-content-wrapper p{
+    color: #333;
+    padding-top: .5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Nunito-Regular";
+}
+
+.piramal-existing-customer-container .piramal-existing-customer-wrapper{
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1320px;
+}
+
+.piramal-existing-customer-container .piramal-existing-customer-wrapper .piramal-existing-customer{
+    gap: 2.5rem;
+    display: flex;
+    margin-bottom: 4.5rem;
+}
+
+.piramal-existing-customer-container .piramal-existing-customer-wrapper .piramal-existing-customer > div > div:first-child picture img{
+    width: 22.23%;
+    height: fit-content;
+}
+
+.piramal-existing-customer-container .piramal-existing-customer-wrapper .piramal-existing-customer > div > div:last-child h3{
+    padding: 1rem 0px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: "Nunito-Extrabold" , sans-serif;
+}
+/* Piramal Existing Customer */
