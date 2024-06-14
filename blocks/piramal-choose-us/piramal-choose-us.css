@@ -51,3 +51,43 @@
     font-family: "Nunito-Extrabold" , sans-serif;
 }
 /* Piramal Choose Us Title & Card */
+
+
+@media screen and (max-width:768px){
+    .piramal-choose-us-title .default-content-wrapper h2{
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    .piramal-choose-us-title .default-content-wrapper p{
+        color: #666;
+        display: block;
+        font-family: Nunito-Regular, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 4px;
+        padding-top: unset;
+    }
+    .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:first-child picture img{
+        width: 40px;
+    }
+    .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div{
+        width:100%;
+        flex: unset;
+    }
+    .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:last-child h2{
+        color: #333;
+        font-family: Nunito-Bold, sans-serif;
+        font-size: 1pc;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 8px 0 9pt;
+    }
+    .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us{
+        column-gap: 36px;
+        grid-template-columns: 1fr;
+        row-gap: 24px;
+        margin-bottom: 40px;
+    }
+}
+
