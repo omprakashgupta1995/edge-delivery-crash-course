@@ -64,7 +64,22 @@
     font-family: Nunito-Bold,'sans-serif';  
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width:1200px) {
+   
+    .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card{
+        gap: 16px;
+        padding: 0px 16px;
+    }
+    .piramal-loan-title .default-content-wrapper h2{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
 
     .piramal-containers .default-content-wrapper{
         padding: 0px 1rem;

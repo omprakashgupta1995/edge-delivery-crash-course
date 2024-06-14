@@ -75,7 +75,19 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+    .piramal-emi-calculator-title .default-content-wrapper h2{
+        padding-left:16px;
+       padding-right:16px;
+    }
+    .piramal-emi-calculator-title .default-content-wrapper p{
+       padding-left:16px;
+       padding-right:16px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
     .piramal-emi-calculator-title .default-content-wrapper h2{
         font-size: 1.125rem;
         line-height: 1.125rem;
