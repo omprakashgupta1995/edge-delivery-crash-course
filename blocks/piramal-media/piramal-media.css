@@ -21,6 +21,7 @@
     align-items: center;
     margin-bottom: 4.5rem;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 
@@ -43,3 +44,36 @@
     height: fit-content;
 }
 /* Piramal Media Img & Title */
+
+
+
+@media screen and (max-width: 768px)  {
+   .piramal-containers.piramal-media-title .default-content-wrapper h2{
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 4px;
+        margin-bottom: 20px;
+    }
+    .piramal-media.block{
+        gap: 24px;
+        justify-content: space-around;
+    }
+    .piramal-media-container .piramal-media-wrapper .piramal-media{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-around;
+    }
+    .piramal-media-container .piramal-media-wrapper .piramal-media > div{
+        width: 45%;
+    }
+    .piramal-media-container .piramal-media-wrapper .piramal-media > div:last-child{
+        width: 51%;
+    }
+    .piramal-media-container .piramal-media-wrapper .piramal-media > div:first-child > div picture img,.piramal-media-container .piramal-media-wrapper .piramal-media > div:nth-child(2) > div picture img,.piramal-media-container .piramal-media-wrapper .piramal-media > div:nth-child(3) > div picture img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

@@ -70,5 +70,42 @@
     .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download {
         margin-bottom: 2.5rem;
     }
+
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child p:first-child a picture img,.piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child p:last-child a picture img{
+     
+        width: 75px;
+        border-radius: 8px;
+        height: fit-content;
+    }
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div h2{
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: .5rem;
+        font-family: "Nunito-Bold" , sans-serif;
+    }
+
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:first-child{
+     padding: 15px;
+    }
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div:last-child{
+        padding: 10px;
+        display: none;
+    }
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child > div p{
+        color: #ffffff;
+        font-size:16px;
+        line-height: 20px;
+    }
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:last-child{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download > div:first-child > div:first-child picture img{
+        width: 100%;
+        max-height: 150px;
+    }
 }
+
 /* Piramal App Download */
