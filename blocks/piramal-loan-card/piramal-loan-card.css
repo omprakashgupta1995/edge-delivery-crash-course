@@ -86,17 +86,28 @@
     }
 
     .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card > div{
-        width: 100%;
+        width: 30%;
         padding: .75rem;
         flex-direction: column;
     }
 
     .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card > div > div:first-child p a picture img{
-        max-width: 100%;
+       width: 42px;
+       height: 42px;
+    }
+
+    .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card > div > div:last-child{
+        margin: 0;
+        text-align: center;
+    }
+
+    .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card > div > div:last-child p{
+        line-height: 15px;
     }
 
     .piramal-loan-card-container .piramal-loan-card-wrapper .piramal-loan-card > div > div:last-child p a {
         padding-top: 6px;
+        line-height: 15px;
         font-size: .625rem;
     }
 }
