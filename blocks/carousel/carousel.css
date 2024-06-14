@@ -181,14 +181,22 @@
   align-items: center;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li {
   gap: 155px;
 }
 
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) {
   background-color: #DEF3FD;
+  width: 100%;
+  min-height: 529px;
 }
 
+li .carousel-slide-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  width: 100%;
+}
 
 .piramal-banner-carousel .carousel-slides-container .carousel-navigation-buttons {
   display: none;
@@ -204,10 +212,13 @@
   text-align: right;
   max-height: 335px;
   align-self: flex-end;
+  padding-top: 100px;
+  max-width: 394px;
 }
 
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image {
   width: 64%;
+  max-width: 793px;
   align-self: center;
 }
 
@@ -216,7 +227,7 @@
   margin-top: 2pc;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p:last-child{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p:last-child {
   margin-top: 36px;
 }
 
@@ -227,7 +238,7 @@
 
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image h2,
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h2,
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3 {
   color: #000;
   font-size: 3pc;
   line-height: 60px;
@@ -235,11 +246,11 @@
   font-family: "Nunito-Extrabold", sans-serif;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h2{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h2 {
   margin-bottom: 0px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3 {
   color: #f26841;
 }
 
@@ -251,8 +262,8 @@
   font-family: "Nunito-Regular", sans-serif;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p{
-    color: #000;
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p {
+  color: #000;
 }
 
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image p:last-child a,
@@ -266,6 +277,7 @@
   padding: 18px 2.16pc 18px 34.65px;
   font-family: "Nunito-Bold", sans-serif;
 }
+
 /* Piraml Banner Carousel Text & Button Common CSS*/
 
 /* Piraml Banner Carousel Image*/
@@ -277,27 +289,30 @@
   max-width: 394px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image {
   width: 49%;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2){
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) {
   background-image: url('/Assets/img/bgiPhone15.jpg');
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-content{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-content {
   margin: 0;
   padding: 0;
   width: 31pc;
   height: 289px;
-  overflow: hidden;
+  /* overflow: hidden; */
   align-self: flex-end;
+  padding-top: 100px;
+  max-width: 394px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-content picture img{
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-content picture img {
   width: 372px;
   object-fit: contain;
 }
+
 /* Piraml Banner Carousel Image*/
 
 /* Slider Dots Csss */
@@ -307,9 +322,15 @@
   padding-left: 110px;
 }
 
-.carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button{
+.carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button {
   opacity: .2;
   cursor: pointer;
+}
+.carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator:first-child button.active{
+  width: 40px;
+}
+.carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button.active{
+  width: 40px;
 }
 
 /* .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button:focus,
@@ -317,5 +338,5 @@
   opacity: 0;
   background: unset;
 } */
- /* Slider Dots Csss */
+/* Slider Dots Csss */
 /* Piramal Banner Carousel */
