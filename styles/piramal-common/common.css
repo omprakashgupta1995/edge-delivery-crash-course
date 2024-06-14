@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth
+}
+
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    background: transparent;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Nunito-Light, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+a {
+    background: transparent;
+    color: unset;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+ul {
+    list-style: none
+}
+
+input,
+input:focus,
+select,
+select:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.piramal-container {
+    margin: 0 auto;
+    max-width: 1296px;
+}
+
+main{
+    padding-top: 112px;
+}
+
+@media screen and (max-width: 1400px) {
+    .piramal-container {
+        max-width:76.1%
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .piramal-container {
+        max-width:100%;
+        padding: 0 1pc;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        padding-top: 72px;
+    }
+}
+/* footer css start */
+.footer-wrapper .footer{
+    max-width: unset;
+}
+/* footer css end */

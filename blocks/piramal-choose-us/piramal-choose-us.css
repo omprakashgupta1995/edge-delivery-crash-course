@@ -1,0 +1,53 @@
+/* Piramal Choose Us Title & Card */
+.piramal-choose-us-title .default-content-wrapper h2{
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.75rem;
+    font-family: "Nunito-Extrabold" , sans-serif;
+}
+
+.piramal-choose-us-title .default-content-wrapper p{
+    color: #333;
+    font-size: 1.125rem;
+    padding-top: .8rem;
+    line-height: 1.75rem;
+    font-family: "Nunito-Regular" , sans-serif;
+}
+
+.pirmal-choose-us-wrap{
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.piramal-choose-us-container .piramal-choose-us-wrapper{
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1320px;
+}
+
+.piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us{
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4.5rem;
+}
+
+.piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div{
+    width: 20.37%;
+    flex: 0 0 auto;
+}
+
+.piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:first-child picture img{
+    width:  27.3%;
+    height: fit-content;
+}
+
+.piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:last-child h2{
+    color: #333;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: "Nunito-Extrabold" , sans-serif;
+}
+/* Piramal Choose Us Title & Card */

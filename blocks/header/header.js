@@ -3,6 +3,7 @@ import { loadFragment } from '../fragment/fragment.js';
 
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
+const isMobile = window.matchMedia('(max-width: 768px)');
 
 function closeOnEscape(e) {
   if (e.code === 'Escape') {
@@ -146,4 +147,21 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+
+  // Custom Event Function 
+  if(isMobile.matches){
+    headerEvnt();
+  }
+
+}
+
+function headerEvnt (){
+  var navDrops = document.querySelectorAll('.nav-drop');
+
+  navDrops.forEach(function (elem) {
+      elem.addEventListener("click", function(){
+          console.log(this);
+          this.classList.toggle("active");
+      });
+  });
 }

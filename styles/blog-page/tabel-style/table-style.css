@@ -1,0 +1,40 @@
+.piramal-blog-color-table .table{
+    width: 475.8pt;
+}
+
+.piramal-blog-color-table .table table thead tr,
+.piramal-blog-color-table .table table tbody tr{
+    border: none;
+}
+
+.piramal-blog-color-table .table table th:nth-child(1),
+.piramal-blog-color-table .table table td:nth-child(1){
+    border-right: 1.0pt solid #D7D7D7;
+}
+
+.piramal-blog-color-table .table table th{
+    background-color: #F2FBFC;
+    padding: 9.0pt 36.0pt 9.0pt 36.0pt;
+}
+
+.piramal-blog-color-table .table table th p,
+.piramal-blog-color-table .table table td p{
+    font-size: 12.0pt;
+    color: #303030;
+    margin-top: 1rem;
+    font-family: 'inherit', serif;
+}
+
+.piramal-blog-color-table .table table tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.piramal-blog-color-table .table table td{
+    padding: 6.75pt 36.0pt 6.75pt 36.0pt
+}
+
+@media screen and (max-width: 768px) {
+.piramal-blog-color-table .table-wrapper{
+    overflow-x: auto;
+}
+}
