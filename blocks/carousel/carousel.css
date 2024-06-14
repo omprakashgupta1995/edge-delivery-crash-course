@@ -185,7 +185,7 @@
   gap: 155px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li {
   background-color: #DEF3FD;
   width: 100%;
   min-height: 529px;
@@ -206,7 +206,7 @@ li .carousel-slide-wrapper {
   background: unset;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-content {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-content {
   margin: 0px;
   padding: 0px;
   text-align: right;
@@ -216,14 +216,14 @@ li .carousel-slide-wrapper {
   max-width: 394px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image {
   width: 64%;
   max-width: 793px;
   align-self: center;
 }
 
 /* Piraml Banner Carousel Text & Button */
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image p:last-child {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p:last-child {
   margin-top: 2pc;
 }
 
@@ -236,7 +236,7 @@ li .carousel-slide-wrapper {
 
 /* Piraml Banner Carousel Text & Button Common CSS*/
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image h2,
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image h2,
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h2,
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3 {
   color: #000;
@@ -254,7 +254,7 @@ li .carousel-slide-wrapper {
   color: #f26841;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image p,
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p,
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p {
   color: #666;
   font-size: 24px;
@@ -266,8 +266,7 @@ li .carousel-slide-wrapper {
   color: #000;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-image p:last-child a,
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p:last-child a {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p:last-child a {
   color: #fff;
   font-size: 18px;
   line-height: 28px;
@@ -282,16 +281,16 @@ li .carousel-slide-wrapper {
 
 /* Piraml Banner Carousel Image*/
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(1) .carousel-slide-content picture img {
+.piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-content picture img {
   width: 100%;
   height: 100%;
   max-height: 335px;
   max-width: 394px;
 }
 
-.piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image {
+/* .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image {
   width: 49%;
-}
+} */
 
 .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) {
   background-image: url('/Assets/img/bgiPhone15.jpg');
