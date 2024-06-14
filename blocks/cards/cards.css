@@ -29,3 +29,35 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+.section.key-features-container{
+  padding: 0px 0;
+  background: #365069;
+}
+
+/* Cards section Start */
+
+.key-features-cards >ul{
+  display: flex;
+  gap: 227px;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: 2rem;
+}
+.key-features-cards >ul li{
+  background: none;
+  border: 0;
+  max-width: 417px;
+}
+.key-features-cards >ul li div:first-child{
+  max-width: 48px;
+  height: 48px;
+}
+.key-features-cards >ul li div:first-child picture img{
+  display: block;
+  height: 100%;
+}
+.key-features-cards >ul li div:last-child{
+  margin: 0;
+}
+/* Cards Section Ends */
+
