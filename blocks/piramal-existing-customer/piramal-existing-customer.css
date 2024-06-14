@@ -42,3 +42,22 @@
     font-family: "Nunito-Extrabold" , sans-serif;
 }
 /* Piramal Existing Customer */
+
+
+
+@media screen and (max-width:768px){
+    .piramal-existing-customer-title .default-content-wrapper h2{
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    .piramal-existing-customer-title .default-content-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 4px;
+        padding-top: unset;
+        color: #666;
+        display: block;
+        font-family: Nunito-Regular, sans-serif;
+    }
+}
