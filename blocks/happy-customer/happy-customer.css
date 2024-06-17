@@ -1,0 +1,228 @@
+.happy-customer-container{
+    background-color: rgba(235, 238, 240, 0.3);
+    padding: 64px 0px;
+}
+.happy-customer-container .default-content-wrapper p{
+    text-align: center;
+    margin-bottom: 24px;
+    color: #000;
+    display: block;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-size: 2pc;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+
+.happy-customer-container .happy-customer-wrapper{
+    margin: 75pt auto 0;
+    max-width: 743px;
+    position: relative;
+    width: 100%;
+}
+
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block{
+    text-align: center;
+}
+
+.happy-customer-container .happy-customer-wrapper .happy-customer.block picture img{
+    position: relative;
+   
+}
+
+.happy-customer-container .happy-customer-wrapper .happy-customer.block picture img{
+    border-radius: 50%;
+    height: 205px;
+    margin-bottom: 10px;
+    width: 205px;
+   
+}
+
+
+
+
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block .happy-customer.block >div div:last-child::before{
+    border-bottom: 33px solid #ffffff;
+    border-left: 31px solid transparent;
+    border-right: 2pc solid transparent;
+    content: " ";
+    height: -6px;
+    left: 46%;
+    margin-top: -59px;
+    position: absolute;
+    width: 0px;
+    z-index: 9;
+}
+
+
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block .happy-customer.block >div div:last-child{
+    background-color: #fff;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .2);
+    box-shadow: 0 4px 9pt rgba(51, 51, 51, .2);
+    margin-top: 15px;
+    padding: 2pc 4pc;
+    position: relative;
+}
+
+
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block .happy-customer.block >div div:last-child #comment{
+    color: #333;
+    display: block;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block .happy-customer.block >div div:last-child #name{
+    color: #333;
+    display: block;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+.happy-customer-container .happy-customer-wrapper >.happy-customer.block .happy-customer.block >div div:last-child p{
+    color: gray;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+/* .zoom-circleone{             
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 0s;
+ 
+}
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+} */
+/* .zoom-circletwo{
+    
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 1s;
+
+}
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+.zoom-circlethree{
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 2s;
+ 
+}
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+} */
+
+
+.happy-customer-container .happy-customer-wrapper .happy-customer.block picture source:nth-child(1){
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 0s;
+}
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+
+.happy-customer-container .happy-customer-wrapper .happy-customer.block picture source:nth-child(2){
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 0s;
+}
+
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}
+
+
+.happy-customer-container .happy-customer-wrapper .happy-customer.block picture source:nth-child(3){
+    border-radius: 50%;
+    background: orange;
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 6s infinite cubic-bezier(.36,.11,.89,.32);
+    animation-delay: 2s;
+ 
+}
+@keyframes scaleIn {
+    0%{
+        transform: scale(.8,.8);
+        opacity: .1;
+    }
+    100%{
+        transform: scale(2,2);
+        opacity: 0;
+    }
+}

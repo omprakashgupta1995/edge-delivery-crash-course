@@ -115,6 +115,18 @@
         line-height: 24px;
 
     }
+
   
    
+}
+
+@media screen and (max-width:1200px){
+    .piramal-since-container{
+        max-width: 80%;
+        margin: auto;
+    }
+    .piramal-since-container .piramal-since-wrapper .piramal-since{
+        gap: unset;
+     
+    }
 }
