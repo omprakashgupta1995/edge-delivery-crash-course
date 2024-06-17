@@ -2,16 +2,6 @@ body {
   font-family: 'Nunito', 'Nunito-fallback', sans-serif !important;
 }
 
-/* main>.section {
-  padding: 0;
-  background: #F8FAFF;
-}
-
-.section>div {
-  max-width: 1240px;
-  padding-left: 0;
-  margin: 0 auto;
-} */
 .hero-wrapper{
   max-width: 1240px;
   padding-left: 0;
