@@ -37,6 +37,7 @@
     overflow: hidden;
     position: relative;
     border-radius: 1.5rem;
+    height: 150px;
 }
 
 .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div h3{
@@ -47,6 +48,7 @@
     line-height: 2rem;
     position: absolute;
     font-family: "Nunito-Bold" , sans-serif;
+    z-index: 1;
 }
 
 .piramal-calculator-emi-container .piramal-calculator-emi-wrapper .piramal-calculator-emi > div > div p:last-child{
@@ -83,6 +85,10 @@
     .piramal-emi-calculator-title .default-content-wrapper p{
        padding-left:16px;
        padding-right:16px;
+    }
+    .piramal-calculator-emi-container{
+        max-width: 80%;
+        margin: auto;
     }
 }
 

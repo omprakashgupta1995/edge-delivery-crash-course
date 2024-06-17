@@ -58,15 +58,235 @@
 
 
 /* Accordion(Document Required) START */
-.section.documents-required{
-    background-color: green;
+.section.documents-required {
+    background-color: rgb(255, 247, 244);
+    padding-bottom: 72px;
+    padding-top: 1pc;
 }
-.block.accordion.documents-required{
-    background-color: red;
+
+.documents-required .default-content-wrapper {
+    max-width: 1240px;
+    margin: auto;
 }
+
+.documents-required .default-content-wrapper>h2 {
+    position: relative;
+    display: flex;
+    display: block;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-size: 2pc;
+    font-weight: 800;
+    line-height: 28px;
+    padding-bottom: 8px;
+}
+
+.documents-required .default-content-wrapper>h2>a {
+    background-color: #fff;
+    /* min-height: 3pc; */
+    padding: -7px 24px;
+    border: 1px solid #365069;
+    border-radius: 8px;
+    max-width: 324px;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 100%;
+    color: #365069;
+    font-family: 'Nunito-Bold', sans-serif;
+    font-size: 1pc;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding: 9px 24px;
+}
+
+.documents-required .default-content-wrapper>p {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
 /* Accordion(Document Required) END */
-/* Accordion(Frequently asked questions ) START */
-.accordion.documents-required{
-    background-color: red;
+
+/* Accordian container start */
+.accordion.documents-required {
+    max-width: 1240px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .08);
+    box-shadow: 0 4px 9pt rgba(51, 51, 51, .08);
+    padding: 0 2pc;
 }
+
+.accordion.documents-required .accordion-item {
+    margin: 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-label {
+    display: flex;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    align-items: center;
+    padding: 2pc 0;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-label p:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    width: 32px;
+    height: 32px;
+
+}
+
+.accordion.documents-required .accordion-item .accordion-item-label p:nth-child(3) {
+    color: #333;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 4px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-label p:nth-child(4) {
+    color: #666;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-label p:nth-child(2) picture img {
+    width: 32px;
+    height: 32px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding-bottom: 44px;
+    padding-left: 20px;
+    font-size: 1pc;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body strong {
+    color: #f26841;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 1pc;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    /* padding-bottom: 44px;
+    padding-left: 20px; */
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body ol {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:first-child {
+    display: block;
+    width: 77.1%;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2) picture img,
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture img {
+    width: 18px;
+    height: 18px;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body ol {
+    list-style-type: none;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body ol li::marker {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .section.documents-required {
+        padding: 1pc;
+        padding-bottom: 96px;
+    }
+
+    .accordion.documents-required {
+        border-radius: 9pt;
+        padding: 9pt 1pc;
+    }
+
+    .documents-required .default-content-wrapper>h2 {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 4px;
+    }
+
+    .documents-required .default-content-wrapper>p {
+        margin-bottom: 20px;
+        margin-top: 9pt;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-label {
+        grid-template-columns: 40px 1fr;
+        padding: 1pc 0;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-label p:nth-child(3) {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: unset;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-label p:nth-child(4) {
+        font-size: 9pt;
+        line-height: 1pc;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-body {
+        font-size: 9pt;
+        line-height: 1pc;
+        padding-left: unset;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-body strong {
+        font-size: 9pt;
+        line-height: 1pc;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2) picture img,
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture img{
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* Accordion(Container) END */
+
+
+
+
+/* Accordion(Frequently asked questions ) START */
+.accordion.documents-required {}
+
 /* Accordion(Frequently asked questions) END */

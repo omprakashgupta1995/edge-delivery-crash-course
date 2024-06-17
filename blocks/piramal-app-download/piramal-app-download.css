@@ -127,4 +127,11 @@
     
 }
 
+@media screen and (max-width:1200px) {
+    .piramal-app-download-container .piramal-app-download-wrapper .piramal-app-download{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
 /* Piramal App Download */

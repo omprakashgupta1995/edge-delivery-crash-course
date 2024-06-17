@@ -678,3 +678,24 @@ header nav .nav-tools {
 }
 
 /* header custom css */
+
+
+
+.header-wrapper .nav-wrapper nav{
+  max-width: 1240px;
+  padding: 0;
+}
+
+.header-wrapper .nav-wrapper nav .nav-sections .default-content-wrapper>ul>li>strong{
+  
+    align-items: center;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 1pc;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+

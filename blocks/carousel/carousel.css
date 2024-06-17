@@ -324,12 +324,20 @@ li .carousel-slide-wrapper {
 .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button {
   opacity: .2;
   cursor: pointer;
+  width: 8px;
+  height: 8px;
+  border: none;
+  opacity: 0.6;
 }
 .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator:first-child button.active{
-  width: 40px;
+  width: 24px;
+  background: black;
+  opacity: 0.8;
 }
 .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button.active{
-  width: 40px;
+  width: 24px;
+  background: black;
+  opacity: 0.8;
 }
 
 /* .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button:focus,
@@ -339,3 +347,93 @@ li .carousel-slide-wrapper {
 } */
 /* Slider Dots Csss */
 /* Piramal Banner Carousel */
+
+
+@media screen and (max-width:1200px) {
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image h2{
+    font-size: 24px;
+    line-height: 2pc;
+    margin-bottom: 9pt;
+  }
+
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li{
+    padding: 0px 16px;
+    flex-direction: column;
+    height: 440px;
+    max-width: 100%;
+    padding-top: 40px;
+    min-height: unset;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p:last-child a{
+    font-size: 14px;
+        line-height: 20px;
+        padding: 14px 1pc;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image{
+    /* padding-top: 35px; */
+    align-self: normal;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p:last-child {
+    margin-top: 28px;
+  }
+
+  .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button {
+    border: none;
+    border-radius: 4px;
+    height: 5px;
+    margin-left: 8px !important;
+    margin-right: 0 !important;
+    mix-blend-mode: normal;
+    width: 5px;
+  }
+  .carousel.piramal-banner-carousel nav{
+    padding-left: 113px;
+    
+  }
+  .carousel .carousel-slide-indicators{
+    gap: 0;
+  }
+  .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator:first-child button.active{
+    width: 15px;
+    background: #000;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-content picture img{
+    max-width: 200px;
+    height: 100%;
+  }
+  li .carousel-slide-wrapper{
+    flex-direction: column;
+    gap: 52px;
+    max-width: 80%;
+    /* padding-top: 40px; */
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-content{
+    padding-top: unset;
+  }
+  .carousel.piramal-banner-carousel nav .carousel-slide-indicators .carousel-slide-indicator button.active{
+    width: 15px;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image h2, .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h2{
+    font-size: 24px;
+        line-height: 2pc;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image h3{
+    font-size: 24px;
+    line-height: 2pc;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image p, .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-image p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li:nth-child(2) .carousel-slide-content{
+    height: unset;
+    padding-top: unset;
+  }
+  .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image{
+    width: unset;
+  }
+}

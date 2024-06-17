@@ -77,3 +77,17 @@
     }
     
 }
+
+
+@media screen  and (max-width:1200px){
+    .piramal-media-container{
+        max-width: 80%;
+    margin: auto;
+    }
+    .piramal-media-container .piramal-media-wrapper{
+        max-width: unset;
+    }
+    .piramal-media-container .piramal-media-wrapper .piramal-media{
+        gap: 5.2rem;
+    }
+}
