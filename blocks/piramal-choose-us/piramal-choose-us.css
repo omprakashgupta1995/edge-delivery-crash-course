@@ -28,13 +28,14 @@
 
 .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us{
     gap: 5rem;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 4.5rem;
 }
 
 .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div{
-    width: 20.37%;
+    /* width: 20.37%; */
     flex: 0 0 auto;
 }
 
@@ -57,6 +58,14 @@
     .piramal-choose-us-title .default-content-wrapper h2,.piramal-choose-us-title .default-content-wrapper p{
         padding-left:16px;
         padding-right:16px;
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    .piramal-choose-us-title .default-content-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+        
     }
 
     .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us{
@@ -78,11 +87,15 @@
     line-height: 1.75rem;
     font-family: "Nunito-Extrabold", sans-serif;
     }
+
+    .pirmal-choose-us-wrap{
+        max-width: 80%;
+        margin: auto;
+    }
     
 }
 
-
-@media screen and (max-width:900){
+@media screen and (max-width:900px){
     .piramal-choose-us-title .default-content-wrapper h2{
         font-size: 20px;
         line-height: 28px;
@@ -96,6 +109,9 @@
         line-height: 20px;
         padding-bottom: 4px;
         padding-top: unset;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 4px;
     }
     .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:first-child picture img{
         width: 40px;
@@ -122,5 +138,11 @@
             padding: 0 16px;
      
     }
+    .piramal-choose-us-container .piramal-choose-us-wrapper .piramal-choose-us > div > div:first-child picture img{
+        height: 3pc;
+        width: 40px;
+    }
+    .piramal-choose-us-container .piramal-choose-us-wrapper{
+            margin: unset;  
+    }
 }
-
