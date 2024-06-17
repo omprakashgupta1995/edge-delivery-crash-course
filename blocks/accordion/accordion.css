@@ -58,12 +58,15 @@
 
 
 /* Accordion(Document Required) START */
-.accordion.document-required{
+.section.documents-required{
+    background-color: green;
+}
+.block.accordion.documents-required{
     background-color: red;
 }
 /* Accordion(Document Required) END */
 /* Accordion(Frequently asked questions ) START */
-.accordion.document-required{
+.accordion.documents-required{
     background-color: red;
 }
 /* Accordion(Frequently asked questions) END */
