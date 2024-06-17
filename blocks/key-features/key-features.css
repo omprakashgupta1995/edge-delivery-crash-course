@@ -1,57 +1,186 @@
+.key-features-wrapper {
+    max-width: 1240px;
+    margin: auto;
+}
 
-.section.key-features-container{
-    padding: 50px 0;
+.section.key-features-container {
+    margin-bottom: 72px;
+    padding: 40px 0;
     background: #365069;
 }
-.key-features-cards{
-    display: flex;
-    gap: 227px;
-    align-items: center;
-    justify-content: start;
-    padding-bottom: 2rem;
+
+.cards-wrapper {
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 3pc;
 }
-.key-features-cards div div:first-child{
+
+.cards-wrapper .key-features-cards>ul {
+    display: flex;
+    gap: 13px;
+}
+
+.cards-wrapper .key-features-cards>ul>li {
+    width: 32.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 9pt;
+}
+
+.key-features-cards div div:first-child {
     max-width: 48px;
 }
-.key-features-cards div div:last-child p:first-child{
+
+.key-features-cards div div:last-child p:first-child {
     color: rgb(215 220 225);
     margin: 0;
     padding-bottom: .25rem;
     padding-top: .75rem;
     font-size: 1rem;
 }
-.key-features-cards div div:last-child p:last-child{
+
+.key-features-cards div div:last-child p:last-child {
     margin: 0;
     font-size: 1.5rem;
     line-height: 2rem;
     color: rgb(255 255 255);
 }
-.key-features >div >div:first-child p{
-    padding-bottom: .5rem;
-    margin: 0;
+
+.key-features>div>div:first-child p {
+    color: #d7dce1;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
     font-weight: 400;
-    font-size: 1rem;
-    color: #D7DCE1;
-} 
-.key-features >div >div:last-child p{
-    margin: 0;
-    color: #FFFFFF;
-    font-size: 2rem;
-    padding-bottom: 1.75rem;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.key-features>div>div:last-child p {
+    color: #fff;
+    display: block;
+    font-family: 'Nunito-Bold', sans-serif;
+    font-size: 2pc;
     font-weight: 700;
 }
-.terms-conditions >div >div{
+
+.terms-conditions>div>div {
     display: flex;
     gap: 5px;
 }
-.terms-conditions >div >div p{
+
+.terms-conditions>div>div p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.5rem;
     color: rgb(215 220 225);
-    
+
 }
-.terms-conditions >div >div p:nth-child(2){
+
+.terms-conditions>div>div >p >strong{
     color: rgb(245 134 103);
     text-decoration: underline;
+}
+
+/* Cards section Start */
+
+.key-features-cards>ul {
+    display: flex;
+    gap: 227px;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 2rem;
+}
+
+.key-features-cards>ul li {
+    background: none;
+    border: 0;
+    max-width: 417px;
+}
+
+.key-features-cards>ul li div:first-child {
+    width: 48px;
+    height: 48px;
+}
+
+.key-features-cards>ul li div:first-child picture img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.key-features-cards>ul li div:last-child {
+    margin: 0;
+}
+
+.key-features-cards>ul li div:last-child p:first-child {
+    color: #d7dce1;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: unset;
+    padding: 0pt 0 4px;
+}
+
+.key-features-cards>ul li div:last-child p:last-child {
+    color: #fff;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    font-weight: 400;
+    line-height: 2pc;
+}
+
+/* Cards Section Ends */
+
+@media screen and (max-width:760px) {
+
+    .section.key-features-container {
+        margin-bottom: 40px;
+        padding: 1pc 1pc;
+    }
+
+    .key-features>div>div:last-child p {
+        font-size: 1pc;
+    }
+
+    .cards-wrapper {
+        margin-bottom: 2pc;
+    }
+
+    .cards-wrapper .key-features-cards>ul {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .cards-wrapper .key-features-cards>ul>li {
+        min-height: 44px;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 24px;
+        column-gap: 1pc;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .key-features-cards>ul li div:first-child {
+        width: 32px;
+        height: 32px;
+    }
+
+    .key-features-cards>ul li div:last-child p:first-child {
+        font-size: 9pt;
+        line-height: 1pc;
+    }
+
+    .key-features-cards>ul li div:last-child p:last-child {
+        font-size: 9pt;
+        line-height: 24px;
+    }
+
+}
+
+.terms-conditions-wrapper {
+    max-width: 1240px;
+    margin: auto;
 }

@@ -2,7 +2,7 @@ body {
   font-family: 'Nunito', 'Nunito-fallback', sans-serif !important;
 }
 
-main>.section {
+/* main>.section {
   padding: 0;
   background: #F8FAFF;
 }
@@ -11,24 +11,35 @@ main>.section {
   max-width: 1240px;
   padding-left: 0;
   margin: 0 auto;
+} */
+.hero-wrapper{
+  max-width: 1240px;
+  padding-left: 0;
+  margin: 0 auto;
 }
-
 .home-loan-banner {
   width: 100%;
   position: relative;
-  min-height: 450px;
-  padding-top: 60px;
+  padding-bottom: 99px;
+  padding-top: 72px;
 }
 
 .home-loan-banner>div:first-child {
   max-width: 394px;
   position: absolute;
-  right: 0;
+  right: 10px;
   bottom: 0;
 }
 
 .home-loan-banner>div:first-child>div>picture>img {
   display: block;
+  height: 335px;
+  max-width: 394px;
+  width: 100%;
+}
+
+.home-loan-banner>div:nth-child(2) {
+  position: relative;
 }
 
 .home-loan-banner>div:nth-child(2)>div>p:first-child {
@@ -38,6 +49,7 @@ main>.section {
   font-weight: 800;
   line-height: 60px;
   max-width: 1240px;
+  font-family: 'Nunito-Extrabold', sans-serif;
 }
 
 .home-loan-banner>div:nth-child(2)>div>p:last-child {
@@ -46,6 +58,7 @@ main>.section {
   font-weight: 400;
   margin: 0;
   margin-top: 16px;
+  max-width: 775px;
 }
 
 .home-loan-banner>div:last-child {
@@ -72,6 +85,9 @@ main>.section {
   font-weight: 400;
   font-size: 1rem;
 }
+.home-loan-banner>div:last-child>div:last-child{
+  position: relative;
+}
 
 .home-loan-banner>div:last-child>div:last-child>p:last-child {
   margin: 0;
@@ -84,11 +100,56 @@ main>.section {
 
 .home-loan-banner>div:last-child>div:last-child>p:last-child a {
   text-decoration-line: underline;
-  background: white;
+  background: unset;
   color: rgb(54 80 105);
   margin: 0;
   padding: 0;
   font-size: 1rem;
   letter-spacing: 1px;
 
+}
+
+@media screen and (max-width:900px) {
+  .home-loan-banner {
+    min-height: 374px;
+    padding: 24px 1pc 0 1pc;
+  }
+
+  .home-loan-banner>div:nth-child(2)>div>p:first-child {
+    font-size: 24px;
+    line-height: 2pc;
+  }
+
+  .home-loan-banner>div:nth-child(2)>div>p:last-child {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+  .home-loan-banner>div:last-child{
+    flex-direction: column;
+    align-items: self-start;
+    gap: 0;
+  }
+  .home-loan-banner>div:last-child {
+    margin-top: 0;
+  }
+  .home-loan-banner>div:last-child>div:first-child>p:first-child{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    padding: 14px 1pc;
+  }
+
+  .home-loan-banner>div:first-child>div>picture>img{
+    height: 170px;
+    max-width: 200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:767px)  {
+  .home-loan-banner>div:last-child>div:first-child{
+    display: none;
+  }
 }
