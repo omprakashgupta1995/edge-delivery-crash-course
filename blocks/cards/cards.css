@@ -81,3 +81,61 @@
     line-height: 24px;
 }
 /* advantage of loan End */
+
+/* about us rating css */
+
+.cards.ratings-box ul{
+  column-gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1pc;
+
+}
+
+.cards.ratings-box ul li{
+  border-radius: 1pc;
+    -webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    height: 165px;
+    padding: 40px;
+    text-align: center;
+}
+
+.cards.ratings-box ul li .cards-card-image picture img{
+  height: 74px;
+  width: 253px;
+  object-fit: contain;
+}
+.cards.ratings-box ul li .cards-card-body{
+  margin: unset;
+}
+.cards.ratings-box ul li .cards-card-body p a{
+  font-family: Nunito-Extrabold, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: underline;
+}
+.section.cards-container .default-content-wrapper #ratings{
+  font-family: Nunito-Extrabold, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 3pc;
+  margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .cards.ratings-box ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+  .cards.ratings-box ul li{
+    width: 100%;
+  }
+ 
+}
+
+
