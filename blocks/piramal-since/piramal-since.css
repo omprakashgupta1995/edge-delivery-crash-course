@@ -120,7 +120,7 @@
    
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:900px) and (max-width:1200px){
     .piramal-since-container{
         max-width: 80%;
         margin: auto;

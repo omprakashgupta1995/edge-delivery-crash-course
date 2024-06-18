@@ -390,10 +390,7 @@ li .carousel-slide-wrapper {
     mix-blend-mode: normal;
     width: 5px;
   }
-  .carousel.piramal-banner-carousel nav{
-    padding-left: 113px;
-    
-  }
+ 
   .carousel .carousel-slide-indicators{
     gap: 0;
   }
@@ -408,7 +405,7 @@ li .carousel-slide-wrapper {
   li .carousel-slide-wrapper{
     flex-direction: column;
     gap: 52px;
-    max-width: 80%;
+    
     /* padding-top: 40px; */
   }
   .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-content{
@@ -435,5 +432,21 @@ li .carousel-slide-wrapper {
   }
   .piramal-banner-carousel .carousel-slides-container .carousel-slides li .carousel-slide-image{
     width: unset;
+  }
+  .carousel.piramal-banner-carousel nav{
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  li .carousel-slide-wrapper{
+    flex-direction: column;
+    gap: 52px;
+    max-width: 80%;
+    /* padding-top: 40px; */
+  }
+  .carousel.piramal-banner-carousel nav{
+    padding-left: 113px;
+    
   }
 }

@@ -88,13 +88,15 @@
     font-family: "Nunito-Extrabold", sans-serif;
     }
 
+  
+    
+}
+ @media screen and (min-width:900px) and (max-width:1200px) {
     .pirmal-choose-us-wrap{
         max-width: 80%;
         margin: auto;
     }
-    
-}
-
+ }
 @media screen and (max-width:900px){
     .piramal-choose-us-title .default-content-wrapper h2{
         font-size: 20px;
