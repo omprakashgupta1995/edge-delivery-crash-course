@@ -1,7 +1,3 @@
-.key-features-wrapper {
-    max-width: 1240px;
-    margin: auto;
-}
 
 .section.key-features-container {
     margin-bottom: 72px;
@@ -10,8 +6,6 @@
 }
 
 .cards-wrapper {
-    max-width: 1240px;
-    margin: auto;
     margin-top: 24px;
     margin-bottom: 3pc;
 }
@@ -137,7 +131,8 @@
 
     .section.key-features-container {
         margin-bottom: 40px;
-        padding: 1pc 1pc;
+        padding-top: 16px;
+        padding-top: 16px;
     }
 
     .key-features>div>div:last-child p {
@@ -181,6 +176,5 @@
 }
 
 .terms-conditions-wrapper {
-    max-width: 1240px;
-    margin: auto;
+    
 }

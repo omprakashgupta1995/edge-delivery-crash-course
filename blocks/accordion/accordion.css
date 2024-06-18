@@ -89,7 +89,7 @@
     max-width: 324px;
     position: absolute;
     right: 0;
-    top: -1px;
+    top: -6px;
     width: 100%;
     color: #365069;
     font-family: 'Nunito-Bold', sans-serif;
@@ -97,12 +97,14 @@
     font-weight: 700;
     line-height: 24px;
     text-align: center;
-    padding: 9px 24px;
+    padding: 12px 0px;
 }
 
 .documents-required .default-content-wrapper>p {
     margin-bottom: 24px;
     margin-top: 24px;
+    min-height: 38px;
+    font-size: 18px;
 }
 
 /* Accordion(Document Required) END */
@@ -221,8 +223,15 @@
     list-style-type: none;
 }
 
-.accordion.documents-required .accordion-item .accordion-item-body ol li::marker {
-    display: none;
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2),
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) {
+    width: 11.2%;
+    text-align: right;
+}
+
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2) picture,
+.accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture {
+    margin-right: 20px;
 }
 
 @media screen and (max-width:768px) {
@@ -245,6 +254,8 @@
     .documents-required .default-content-wrapper>p {
         margin-bottom: 20px;
         margin-top: 9pt;
+        min-height: 24px;
+        font-size: 16px;
     }
 
     .accordion.documents-required .accordion-item .accordion-item-label {
@@ -269,13 +280,27 @@
         padding-left: unset;
     }
 
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:first-child {
+        width: 63.45%;
+    }
+
     .accordion.documents-required .accordion-item .accordion-item-body strong {
         font-size: 9pt;
         line-height: 1pc;
     }
 
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2),
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) {
+        width: 21.2%;
+    }
+
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2) picture,
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture {
+        margin-right: 15px;
+    }
+
     .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(2) picture img,
-    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture img{
+    .accordion.documents-required .accordion-item .accordion-item-body table tbody tr td:nth-child(3) picture img {
         width: 12px;
         height: 12px;
     }
@@ -287,6 +312,109 @@
 
 
 /* Accordion(Frequently asked questions ) START */
-.accordion.documents-required {}
+.section.faq-wrapper {
+    background-color: rgba(255, 244, 231, 0.3);
+    padding-bottom: 72px;
+    padding-top: 72px;
+}
+
+.section.faq-wrapper .default-content-wrapper {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    max-width: 1240px;
+}
+
+.section.faq-wrapper .default-content-wrapper>h2 {
+    color: #000;
+    display: block;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-size: 2pc;
+    font-weight: 800;
+    line-height: 40px;
+    padding-bottom: 8px;
+}
+
+/* Accordian Wrapper start */
+
+.faq-wrapper .accordion-wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item {
+    border-bottom: 1px solid #e5e7eb;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-label {
+    width: 100%;
+    padding: 24px 0;
+    position: relative;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-label p:nth-child(2) {
+    width: 98%;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item[open] .accordion-item-label p:nth-child(2) {
+    color: #f26841;
+    font-family: 'Nunito-Bold', sans-serif;
+    font-weight: 700;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-body {
+    width: 95%;
+    padding: 0;
+    color: #666;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 24px;
+}
+
+.faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-body ul {
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+    .section.faq-wrapper {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .section.faq-wrapper .default-content-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .section.faq-wrapper .default-content-wrapper>h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+    .faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-label::after{
+        right: 20px;
+        top: 35px;
+    }
+    .faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-label p:nth-child(2){
+        font-size: 1pc;
+        line-height: 24px;
+        width: 83%;
+    }
+    .faq-wrapper .accordion-wrapper .faq .accordion-item .accordion-item-body{
+        font-size: 1pc;
+        line-height: 24px;
+    }
+}
+
+/* Accordian Wrapper Edns */
 
 /* Accordion(Frequently asked questions) END */
