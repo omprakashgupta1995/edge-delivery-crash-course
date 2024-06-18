@@ -3,6 +3,7 @@
     gap: 8px;
     max-width: 100%;
     overflow-x: auto;
+
 }
 
 .tabs .tabs-list button {
@@ -43,4 +44,192 @@
 
 .tabs .tabs-panel[aria-hidden="true"] {
     display: none;
+}
+
+
+/* about us tab */
+.about-us-tab{
+    max-width: 1240px;
+    margin: auto;
+}
+.about-us-tab .tabs-panel{
+    padding: unset;
+}
+.about-us-tab .tabs .tabs-list button p {
+    border-bottom: none;
+    font-family: Nunito-Bold, sans-serif;
+    max-width: 264px;
+    padding: 0 20px;
+    text-align: center;
+   
+}
+
+.about-us-tab .tabs .tabs-list  {
+    margin: 3pc;
+   
+}
+.about-us-tab .tabs .tabs-list button[aria-selected="true"] p {
+    color: #e56a0b;
+   
+}
+.about-us-tab .tabs.block .tabs-panel > div table tbody tr{
+    border-radius: 1pc;
+    -webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    display: block;
+    margin: auto auto 24px;
+    padding: 24px;
+    width: 100%;
+}
+
+.about-us-tab .tabs.block .tabs-panel > div table{
+
+    border-spacing: revert; 
+}
+.about-us-tab .tabs.block .tabs-panel > div table tbody tr td h2{
+    color: #f26841;
+    display: block;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 24px;
+    line-height: 2pc;
+    margin-bottom: 1pc;  
+}
+.about-us-tab .tabs.block .tabs-panel > div table tbody tr td p{
+    color: #666;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    line-height: 24px;
+}
+
+.about-us-tab .tabs .tabs-list{
+    justify-content: center;
+}
+
+
+
+
+
+/* Underline Tab */
+.underline-tab{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.underline-tab .default-content-wrapper h2{
+    color: #000;
+    display: block;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-size: 2pc;
+    font-weight: 800;
+    line-height: 40px;
+    padding-bottom: 8px;
+}
+
+
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-list .tabs-tab p{
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2pc;
+    padding: unset;
+    margin-right: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.underline-tab .tabs-panel{
+    padding: unset;
+}
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-list button[aria-selected="true"] p{
+    border-bottom: 2px solid #f26841;
+    color: #f26841;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-weight: 800;
+    padding: unset;
+   
+}
+
+.underline-tab .tabs .tabs-list{
+    margin-top: 22.4px;
+}
+
+.underline-tab .tabs .tabs-list button,.underline-tab .tabs-wrapper .tabs.block .tabs-list .tabs-tab p{
+    padding: unset
+}
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody tr{
+    align-items: center;
+    border-radius: 1pc;
+    -webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 30px 50px;
+    width: 100%;
+}
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody tr:hover{
+    box-shadow: 0 25px 50px -9pt rgba(0, 0, 0, .25);
+}
+
+
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table {
+    width: 100%;
+}
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody {
+    display: grid;
+    gap: 1pc;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 24px 0;
+    width: 100%;
+}
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody tr td{
+    height: 83px;
+    width: 206px;
+}
+
+.underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody tr td picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width:1024px) {
+    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td h2{
+     font-size: 16px; 
+    }
+    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td p{
+        font-size: 12px;
+    }
+
+    .underline-tab .default-content-wrapper h2{
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+
+    }
+
+    .underline-tab .tabs-wrapper .tabs.block .tabs-list .tabs-tab p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 16px;
+    }
+
+    .underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .underline-tab .tabs .tabs-list{
+        margin-top: unset;
+    }
+   
 }
