@@ -208,3 +208,12 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+
+
+
+.boxContainer{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
