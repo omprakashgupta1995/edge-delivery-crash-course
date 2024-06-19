@@ -1,58 +1,170 @@
 .table {
-    width: 100%;
-    overflow-x: auto;
-  }
-  
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-size: var(--body-font-size-xs);
+}
+
+@media (width >=600px) {
   .table table {
-    width: 100%;
-    max-width: 100%;
-    border-collapse: collapse;
-    font-size: var(--body-font-size-xs);
+    font-size: var(--body-font-size-s);
   }
-  
-  @media (width >= 600px) {
-    .table table {
-      font-size: var(--body-font-size-s);
-    }
+}
+
+@media (width >=900px) {
+  .table table {
+    font-size: var(--body-font-size-m);
   }
-  
-  @media (width >= 900px) {
-    .table table {
-      font-size: var(--body-font-size-m);
-    }
+}
+
+.table table thead tr {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.table table tbody tr {
+  border-bottom: 1px solid;
+}
+
+.table table th {
+  font-weight: 700;
+}
+
+.table table th,
+.table table td {
+  padding: 8px 16px;
+  text-align: left;
+}
+
+/* no header variant */
+.table.no-header table tbody tr {
+  border-top: 1px solid;
+}
+
+/* striped variant */
+.table.striped tbody tr:nth-child(odd) {
+  background-color: var(--overlay-background-color);
+}
+
+/* bordered variant */
+.table.bordered table th,
+.table.bordered table td {
+  border: 1px solid;
+}
+
+
+/* fees & Charges table Start */
+.section.fees-and-charges {
+  margin-bottom: 72px;
+}
+
+.section.fees-and-charges .default-content-wrapper h2 {
+  color: #000;
+  display: block;
+  font-family: Nunito-Extrabold, sans-serif;
+  font-size: 2pc;
+  font-weight: 800;
+  line-height: 40px;
+  padding-bottom: 8px;
+}
+
+.section.fees-and-charges .block table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #d7dce1;
+  border-radius: 10px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.section.fees-and-charges .block table thead {
+  border: 1px solid #d7dce1;
+}
+
+.section.fees-and-charges .block table thead tr {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.section.fees-and-charges .block table thead tr th {
+  width: 50%;
+  border-left: unset;
+  border: 0;
+  background-color: #fef0ec;
+  /* border-bottom: 1px solid #d7dce1; */
+  border-left: 1px solid #d7dce1;
+  color: #4d4d4d;
+  font-family: 'Nunito-Bold', sans-serif;
+  font-size: 1pc;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 24px;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+.section.fees-and-charges .block table thead tr th:first-child {
+  border-left: 0;
+}
+
+.section.fees-and-charges .block table tbody tr td {
+  vertical-align: middle;
+  color: #20303f;
+  font-family: Nunito-Regular, sans-serif;
+  font-size: 1pc;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 24px;
+  border: 0;
+  border-bottom: 1px solid #d7dce1;
+}
+
+.section.fees-and-charges .block table tbody tr:first-child td {
+  border-top: 1px solid #d7dce1;
+}
+
+.section.fees-and-charges .block table tbody tr td:last-child {
+  border-left: 1px solid #d7dce1;
+}
+
+.section.fees-and-charges .block table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.section.fees-and-charges .block table tbody tr td ol li {
+  list-style-type: none;
+}
+
+@media screen and (max-width:768px) {
+  .section.fees-and-charges {
+    margin-bottom: 40px;
   }
-  
-  .table table thead tr {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+
+  .section.fees-and-charges .default-content-wrapper h2 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 4px;
   }
-  
-  .table table tbody tr {
-    border-bottom: 1px solid;
+
+  .section.fees-and-charges .block table {
+    margin-top: 8px;
   }
-  
-  .table table th {
-    font-weight: 700;
+
+  .section.fees-and-charges .block table thead tr th:first-child {
+    padding: 24px 9pt 24px 16px;
   }
-  
-  .table table th,
-  .table table td {
-    padding: 8px 16px;
-    text-align: left;
+
+  .section.fees-and-charges .block table tbody tr td {
+    font-size: 9pt;
+    line-height: 1pc;
+    padding: 24px 1pc;
   }
-  
-  /* no header variant */
-  .table.no-header table tbody tr {
-    border-top: 1px solid;
-  }
-  
-  /* striped variant */
-  .table.striped tbody tr:nth-child(odd) {
-    background-color: var(--overlay-background-color);
-  }
-  
-  /* bordered variant */
-  .table.bordered table th,
-  .table.bordered table td {
-    border: 1px solid;
-  }
+}
+
+/* fees & Charges table End */

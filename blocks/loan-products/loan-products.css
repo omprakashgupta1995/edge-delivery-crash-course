@@ -1,0 +1,191 @@
+.section.loan-products-container {
+    margin-bottom: 72px;
+}
+
+.section.loan-products-container .default-content-wrapper {
+    margin-bottom: 24px;
+}
+
+.section.loan-products-container .default-content-wrapper>h2 {
+    color: #000;
+    display: block;
+    font-family: 'Nunito-Extrabold', sans-serif;
+    font-size: 2pc;
+    font-weight: 800;
+    line-height: 40px;
+    padding-bottom: 8px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products {
+    display: grid;
+    gap: 20px;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:first-child {
+    background: #fff9f2;
+    border-radius: 9pt 9pt 0 0;
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    justify-content: start;
+    position: relative;
+    padding: 1pc 24px 40px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:first-child p:first-child picture img {
+    display: block;
+    height: 96px;
+    width: 137px;
+    margin-bottom: 24px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:first-child p:nth-child(2) {
+    position: absolute;
+    right: 24px;
+    top: 16px;
+    width: 32px;
+    height: 32px;
+
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:first-child p:nth-child(3) {
+    color: #000;
+    font-family: 'Nunito-Extrabold', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products>div>div:first-child p:nth-child(4) {
+    padding-bottom: 4px;
+    width: 95%;
+    color: #666;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:first-child p:nth-child(2) a picture img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child {
+    background-color: #fff4e7;
+    border-radius: 8px;
+    position: relative;
+    z-index: 20;
+    border-top: 1px solid #eeebeb;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:first-child {
+    color: #333;
+    cursor: pointer;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 1pc;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 1pc 24px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:nth-child(2),
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:nth-child(3) {
+    background: transparent;
+    height: 16px;
+    position: absolute;
+    right: 24px;
+    top: 20px;
+    width: 16px;
+    z-index: -1;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:nth-child(2) picture img,
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:nth-child(3) picture img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol {
+    padding: 0 24px 1pc;
+    /* display: none; */
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li {
+    list-style-type: none;
+    display: flex;
+    padding-top: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li>ol {
+    padding-left: 16px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li>ol>li:first-child {
+    list-style-type: none;
+    color: rgb(102, 102, 102);
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li>ol>li:last-child {
+    list-style-type: none;
+    color: rgb(51, 51, 51);
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 4px;
+}
+
+@media screen and (max-width:768px) {
+    .section.loan-products-container {
+        margin-bottom: 40px;
+    }
+
+    .section.loan-products-container .default-content-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .section.loan-products-container .default-content-wrapper>h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
+
+    .section.loan-products-container .loan-products-wrapper .loan-products {
+        grid-template-columns: auto;
+        margin-top: 16px;
+
+    }
+
+    .section.loan-products-container .loan-products-wrapper .loan-products>div>div:first-child p:nth-child(4) {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child p:first-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li>ol>li:first-child {
+        font-size: 9pt;
+        line-height: 1pc;
+    }
+
+    .section.loan-products-container .loan-products-wrapper .loan-products div>div:last-child>ol>li>ol>li:last-child {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
