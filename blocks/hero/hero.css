@@ -3,10 +3,10 @@ body {
 }
 
 .hero-wrapper{
-  max-width: 1240px;
-  padding-left: 0;
-  margin: 0 auto;
+  
 }
+
+/* Home Loan Banner Start */
 .home-loan-banner {
   width: 100%;
   position: relative;
@@ -102,7 +102,7 @@ body {
 @media screen and (max-width:900px) {
   .home-loan-banner {
     min-height: 374px;
-    padding: 24px 1pc 0 1pc;
+    padding-top: 24px;
   }
 
   .home-loan-banner>div:nth-child(2)>div>p:first-child {
@@ -143,6 +143,7 @@ body {
     display: none;
   }
 }
+/* Home Loan Banner Ends */
 
 
 

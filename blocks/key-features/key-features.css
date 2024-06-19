@@ -1,7 +1,3 @@
-.key-features-wrapper {
-    max-width: 1240px;
-    margin: auto;
-}
 
 .section.key-features-container {
     margin-bottom: 72px;
@@ -9,9 +5,7 @@
     background: #365069;
 }
 
-.cards-wrapper {
-    max-width: 1240px;
-    margin: auto;
+.key-features-container .cards-wrapper {
     margin-top: 24px;
     margin-bottom: 3pc;
 }
@@ -137,14 +131,15 @@
 
     .section.key-features-container {
         margin-bottom: 40px;
-        padding: 1pc 1pc;
+        padding-top: 16px;
+        padding-top: 16px;
     }
 
     .key-features>div>div:last-child p {
         font-size: 1pc;
     }
 
-    .cards-wrapper {
+    .key-features-container .cards-wrapper {
         margin-bottom: 2pc;
     }
 
@@ -181,6 +176,5 @@
 }
 
 .terms-conditions-wrapper {
-    max-width: 1240px;
-    margin: auto;
+    
 }

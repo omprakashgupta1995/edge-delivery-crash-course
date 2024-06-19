@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth
 }
 
@@ -116,24 +116,30 @@ textarea:focus {
     outline: 0
 }
 
-.piramal-container {
+.piramal-container,
+.default-content-wrapper {
     margin: 0 auto;
-    max-width: 1296px;
+    max-width: 1240px;
 }
 
-main{
+main {
     padding-top: 112px;
 }
 
 @media screen and (max-width: 1400px) {
-    .piramal-container {
-        max-width:76.1%
+
+    .piramal-container,
+    .default-content-wrapper {
+        /* max-width:76.1%; */
+        max-width: 1240px
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .piramal-container {
-        max-width:100%;
+
+    .piramal-container,
+    .default-content-wrapper {
+        max-width: 100%;
         padding: 0 1pc;
     }
 }
@@ -143,10 +149,13 @@ main{
         padding-top: 72px;
     }
 }
+
 /* footer css start */
-.footer-wrapper .footer{
+.footer-wrapper .footer {
     max-width: unset;
 }
+
+/* footer css end */
 /* footer css end */
 
 
