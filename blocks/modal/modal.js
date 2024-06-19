@@ -8,6 +8,10 @@ import {
 // the createModal() and openModal() functions.
 
 export async function createModal(contentNodes) {
+  const block = buildBlock('modal', '');
+  const customCloseBtn = block.children[0];
+  // console.log("customCloseBtn :: " );
+
   await loadCSS(`${window.hlx.codeBasePath}/blocks/modal/modal.css`);
   const dialog = document.createElement('dialog');
   const dialogContent = document.createElement('div');
@@ -32,11 +36,12 @@ export async function createModal(contentNodes) {
     }
   });
 
-  const block = buildBlock('modal', '');
   document.querySelector('main').append(block);
   decorateBlock(block);
   await loadBlock(block);
   decorateIcons(closeButton);
+ 
+  
 
   dialog.addEventListener('close', () => {
     document.body.classList.remove('modal-open');
@@ -44,6 +49,10 @@ export async function createModal(contentNodes) {
   });
 
   block.append(dialog);
+  let reatilFinance=document.querySelector('.retailfinance-container');
+  if(reatilFinance){
+    document.querySelector('.retailfinance-container').closest('.modal dialog').classList.add('retailFinance-modal-Container');
+  }
   return {
     block,
     showModal: () => {
