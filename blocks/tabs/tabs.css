@@ -203,36 +203,7 @@
 }
 
 
-@media screen and (max-width:1024px) {
-    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td h2{
-     font-size: 16px; 
-    }
-    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td p{
-        font-size: 12px;
-    }
 
-    .underline-tab .default-content-wrapper h2{
-        font-size: 20px;
-        line-height: 28px;
-        padding-bottom: 4px;
-
-    }
-
-    .underline-tab .tabs-wrapper .tabs.block .tabs-list .tabs-tab p{
-        font-size: 16px;
-        line-height: 24px;
-        margin-right: 16px;
-    }
-
-    .underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .underline-tab .tabs .tabs-list{
-        margin-top: unset;
-    }
-   
-}
 /* Underline Tab end */
 
 
@@ -279,4 +250,143 @@ display: none;
 
 .section.tab.fragment-container.tab-list .fragment-wrapper .section.tab-list .default-content-wrapper ul li:last-child:after{
     border-right: none;
+}
+
+
+
+/* Corporate Finance Tab */
+.tabs.corporate-finance.block .tabs-list{
+    column-gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.tabs.corporate-finance.block .tabs-list .tabs-tab{
+   
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+align-items: center;
+border-radius: 1pc;
+-webkit-box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+box-shadow: 0 4px 9pt rgba(51, 51, 51, .078);
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+height: 153px;
+justify-content: center;
+
+}
+.tabs.corporate-finance.block .tabs-panel div table tbody{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2pc 0;
+
+}
+
+.tabs.corporate-finance.block .tabs-panel div table tbody tr td h2{
+    border-left: 2px solid #f58667;
+    font-family: Nunito-Extrabold, sans-serif;
+    font-size: 24px;
+    line-height: 2pc;
+    padding-left: 1pc;
+
+}
+.tabs.corporate-finance.block .tabs-panel div table tbody tr td h3{
+    color: #666;
+    font-size: 1pc;
+    line-height: 24px;
+    margin-top: 1pc;
+    padding-left: 1pc;
+}
+.tabs.corporate-finance.block .tabs-panel div p{
+    color: #555;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.tabs.corporate-finance.block .tabs-panel {
+overflow: unset;
+}
+
+.tabs.corporate-finance.block .tabs-list button[aria-selected="true"]{
+    border-bottom: 8px solid #f58667;
+}
+
+.default-content-wrapper h4{
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1pc;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: 100;
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td h2{
+     font-size: 16px; 
+    }
+    .about-us-tab .tabs.block .tabs-panel > div table tbody tr td p{
+        font-size: 12px;
+    }
+    /* underline tab */
+
+    .underline-tab .default-content-wrapper h2{
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+
+    }
+
+    .underline-tab .tabs-wrapper .tabs.block .tabs-list .tabs-tab p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 16px;
+    }
+
+    .underline-tab .tabs-wrapper .tabs.block .tabs-panel div table tbody{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .underline-tab .tabs .tabs-list{
+        margin-top: unset;
+    }
+
+    /* Corporate Finance Tab */
+
+    .tabs.corporate-finance.block .tabs-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: unset;
+    }
+    .tabs.corporate-finance.block .tabs-panel div table tbody{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tabs.corporate-finance.block .tabs-panel{
+        padding: unset;
+    }
+   
+
+    /* Partnership Tab */
+
+    .partnership-tab .fragment-wrapper .section.partnership-tab .default-content-wrapper ul li{
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 16px;
+    }
+
+
+    .partnership-tab .default-content-wrapper h2{
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 4px;
+    }
 }
