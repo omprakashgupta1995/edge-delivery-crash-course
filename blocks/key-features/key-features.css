@@ -5,7 +5,7 @@
     background: #365069;
 }
 
-.cards-wrapper {
+.key-features-container .cards-wrapper {
     margin-top: 24px;
     margin-bottom: 3pc;
 }
@@ -139,7 +139,7 @@
         font-size: 1pc;
     }
 
-    .cards-wrapper {
+    .key-features-container .cards-wrapper {
         margin-bottom: 2pc;
     }
 
