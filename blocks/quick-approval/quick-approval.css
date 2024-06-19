@@ -4,10 +4,8 @@
     background-color: #FFF7F4;
 }
 
-.section .quick-approval-wrapper .quick-approval {
-    max-width: 1240px;
+.section .quick-approval-wrapper .quick-approval>div {
     padding: 80px 0;
-    margin: 0 auto;
 }
 
 .section .quick-approval-wrapper .quick-approval>div>div>h2 {
@@ -58,7 +56,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .section .quick-approval-wrapper .quick-approval {
+    .section .quick-approval-wrapper .quick-approval>div {
         padding: 40px 0;
     }
 
